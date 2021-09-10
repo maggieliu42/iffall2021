@@ -1,0 +1,45 @@
+
+h1 {
+    color:brown;
+    font-size: 35px; 
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: dotted;
+}
+
+p{
+    text-indent: 100; 
+   font-family:fantasy; 
+   font-size:medium; 
+}
+
+.quote{
+    color:black; 
+    font-size: medium;
+}
+
+.Venk {
+    color:purple; 
+}
+.Dana{
+    color:olive; 
+}
+.May {
+    color:saddlebrown; 
+}
+.Stantx{
+    color:salmon; 
+}
+.Spengler{
+    color: brown; 
+
+}
+.Zedd{
+    color:chocolate; 
+
+}
+.Descrip{
+    color:darkgoldenrod; 
+    font-style:italic; 
+
+}
