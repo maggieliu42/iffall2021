@@ -1,0 +1,56 @@
+html {
+    color:gray; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif; 
+    /* heres the rc google font  */
+
+    font-size: 15pt;  
+}
+body {
+    margin: 10%;
+}
+h1 {
+    color: black; 
+    letter-spacing: -0.02em; 
+    text-transform: capitalize;
+    text-indent: -1rem;
+
+    /* this outdents the headers by a lil bit */
+    font-family: vista-slab, serif;
+    /* this is the adobe font, copy and pasted link into index.  */
+}
+
+p {
+    font-size: 13pt;
+    line-height: 1.4; 
+    /* //13 mutipled by 1.4 */
+}
+sup{
+    font-size: .6em;
+}
+
+dfn{
+    font-weight: bold;
+    text-transform: lowercase;
+/* sets all dfns to bolded in the html */
+}
+small{
+    font-style: italic;
+}
+
+aside{
+    text-align:center; 
+}
+cite{
+    text-align: right;
+    display: block;
+}
+article{
+    margin: 6rem 0;
+}
+section {
+    margin: 2.5em 0;
+}
+code{
+    color:cornflowerblue; 
+}
