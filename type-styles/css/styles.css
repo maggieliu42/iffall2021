@@ -1,0 +1,112 @@
+html {
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:rgb(218, 224, 252);
+}
+
+
+h1{ 
+    font-size: 20pt;
+    text-indent: -1rem;
+
+}
+
+h2 { 
+    font-size: 20pt; 
+    color:indianred; 
+    text-indent: 1rem;
+}
+h3{
+    font-size: 20pt; 
+    text-align: center;
+}
+
+section {
+    margin: 2.0em 0;
+}
+/* this changes the space of line between sections */
+
+p {
+    font-size: 15pt;
+    color:rgb(175, 127, 127); 
+    line-height: 10pt;
+    text-indent: 1rem;
+}
+body{
+    margin: 10%; 
+}
+/* 
+dfn{
+    font-weight: bold;
+} */
+
+article{
+    margin: 6rem 0;
+}
+/* last 3 articles arne't applying?? */
+
+.light_fw {
+    font-weight: lighter;
+}
+
+.bold_fw {
+    font-weight: bold;
+}
+
+
+.italic_fs {
+    font-style: italic;
+}
+.oblique_fs {
+    font-style: oblique;
+}
+
+
+.ntrack {
+    letter-spacing: -0.06rem;
+
+}
+.wtrack {
+    letter-spacing: 0.06rem;
+}
+
+
+
+.upcase {
+    text-transform: uppercase;
+
+}
+.locase {
+    text-transform: lowercase;
+
+}
+.cap {
+    text-transform: capitalize;
+}
+
+
+/* last 6 */
+
+.none {
+    text-decoration: none;
+}
+
+.uline {
+    text-decoration: underline;
+}
+
+.oline { 
+    text-decoration: overline;
+}
+
+.lt {
+    text-decoration: line-through;
+}
+
+.wavy{
+    text-decoration: wavy;
+}
+
+.dashed{
+    text-decoration: dashed;
+}
