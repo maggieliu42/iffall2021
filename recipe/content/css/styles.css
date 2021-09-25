@@ -1,0 +1,33 @@
+html {
+    margin: 10%; 
+    background-color: rgb(255, 188, 163);
+    color:black; 
+}
+
+h1{
+    font-size: 45pt; 
+ 
+    color:rgb(150, 47, 10)
+}
+h3{
+    font-size: 25px;
+}
+p{
+    font-size: 24px;
+}
+
+.ingredients {
+    font-size: 25px;
+    color:rgb(150, 47, 10)
+}
+
+.angel{
+    width:60%;
+}
+
+.shrimp {
+    width:60%;
+}
+.tomatoes {
+     width: 60%;
+ }
