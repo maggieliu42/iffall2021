@@ -1,0 +1,39 @@
+.box-layers {
+    background-color: #eeeeee;
+    padding:2rem 1rem 4rem 1rem;
+
+    border-top: 10px solid #dddddd;
+    /* border: 10px solid #dddddd; */
+
+
+    /* margin: 4rem;  this is all the way around*/
+    margin: 4rem 0;
+    /* vertical and hor compenents, if 4 values top right bot left */
+}
+
+.h2-wrapper{
+    border: 1px solid black;
+}
+
+.box-sizing-example {
+    background-color: #eeeeee;
+    padding: 2rem;
+    border: 10px solid #dddddd;
+
+    width: 100%;
+    /* setting the width makes it spill out the margins because it changes the size of the content box not the stuff outisde */
+
+    box-sizing: border-box;
+    /* adding this this fixes it again because it takes the outside into acct too.  */
+  }
+
+  .overflow-example {
+      width:50%; 
+      
+      /* by default itll adjust width or height to fit content unless:  */
+      height: 300px; 
+    /* gross, hide all that: */
+      overflow: hidden;
+/* scrollable:  */
+      overflow:auto; 
+  }
