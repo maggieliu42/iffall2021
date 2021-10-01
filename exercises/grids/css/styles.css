@@ -1,0 +1,51 @@
+img {
+width: 90%;
+padding: 0;
+/* this applies to all the images in that grid , padding 0 gets rid of bullet poinrs around it*/
+
+}
+
+.grid li{
+    display: block;
+    width: 25%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.using-floats li{
+    float:left;
+}
+.using-floats::after{
+    content: "";
+
+    display: block;
+    /* this makes pseudo element the width of its container */
+    clear:both; 
+    /* gets rid of floating elemnts after */
+}
+
+.using-inline-block li{
+display: inline-block; 
+}
+/* this doesn't have 4 per row even tho its coded for, because the spaces are counted and width is more than 100% so it goes to next line.  */
+
+.using-inline-block {
+    font-size: 0;
+}
+/* now the space between the li elements is nothing so no space */
+
+.using-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.using-grid {
+    display:grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.using-grid li {
+    width: 100%;
+}
+/* affects the list of that grid, this overrides */
