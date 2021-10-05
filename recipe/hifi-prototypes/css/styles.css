@@ -1,0 +1,16 @@
+html {
+    background-color: rgb(214, 99, 70);
+}
+img {
+    width: 50%; 
+    /* display: flex; 
+    flex-wrap: wrap;  */
+}
+
+.mobile {
+    width: 15%; 
+}
+
+p {
+    font-size: 25pt;
+}
