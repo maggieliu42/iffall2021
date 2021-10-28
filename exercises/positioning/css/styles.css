@@ -1,0 +1,46 @@
+
+
+.static-example .positioned-element {
+    background-color: green;
+    left: 100px;
+}
+
+.relative-example .positioned-element {
+    background-color: lightblue;
+    position:relative; 
+    left: 100px;
+    top:50px;
+
+    z-index: -1;
+}
+
+/* leaves a hole behind */
+.absolute-example .positioned-element {
+    background-color: red;
+    position:absolute; 
+    top:0;
+
+}
+
+/* red box is now being positioned in relation to this section, because this section is its positioning-parent. */
+.absolute-example {
+    position: relative;
+    right:0;
+}
+
+/* when the document scrolls, the fixed-position item does not move with the page. */
+.fixed-example .positioned-element {
+    background-color: purple;
+    position:fixed; 
+    left: 0;
+    top: 0;
+    width:100%; 
+    z-index:9999;
+}
+
+/* will scroll with the page until it hits a threshold specified by top, where it will 'stick', */
+.sticky-example .positioned-element {
+    background-color: orange;
+    position:sticky;
+    top:50px;
+}
