@@ -1,0 +1,678 @@
+
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        margin: 40px;
+    }
+
+    h1 {
+            font-size: 30px;
+            margin-bottom: 40px;
+    }
+
+    .button_container {
+        border: 1px solid #ddd;
+        margin: 0 10px 10px 0;
+        padding: 20px;
+        width: 300px;
+        height: 300px;
+        float: left;
+        overflow: hidden;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+
+    a#btn_ny{
+        display: inline-block;
+        height: 60px;
+        width: 120px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 100px;
+        padding: 10px 10px 0 10px;
+        background-color:black;
+        border: 2px solid black;
+        color: #fff;
+        font-size: 30px;
+        font-family: 'futura', sans-serif;
+        /* text-align: left; */
+        text-decoration: none;
+        transition: all .5s;
+    }
+     
+
+    a#btn_ny:hover {
+        background-color: #fff;
+        border: 2px solid #000;
+        color: #000;
+    }
+
+   
+
+    a#btn_coca-cola {
+        display: block;
+        width: 100px;
+        height: 100px;
+        box-sizing: border-box;
+        /* controls round */
+       
+        margin: auto;
+        margin-top: 75px;
+        padding-top: 20px;
+        background-color:orangered;
+        color: white;
+        text-align: center;
+       
+        transition: all .3s;
+        text-decoration: none;
+    }
+    a#btn_coca-cola .label {
+        font-family: 'futura', sans-serif;
+        /* dont specify colors in label */
+        font-size: 35px;
+        line-height: 35px;
+    
+    }
+    a#btn_coca-cola:hover {
+        background-color: red;
+        color: black;
+    }
+
+    a#btn_nike {
+        background-color: rgb(1, 65, 184);
+        display: block;
+        width: 100px;
+        height: 80px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 75px;
+        padding-top: 15px;
+        color: black;
+        text-align: center;
+        font-size: 30px;
+        transition: all .3s;
+        text-decoration: none;
+    }
+
+    a#btn_nike .label {
+        font-family: 'futura', sans-serif;
+        color: white;
+        font-size: 30px;
+        line-height: 30px;
+    
+    }
+
+    .fa-star {
+        color: turquoise;
+        font-size: 50px;
+
+    }
+    a#btn_nike:hover {
+        background-color: rgb(79, 131, 243);
+        color: white;
+        box-shadow: 0 0 8px rgba(150, 164, 233, 0.91);
+        text-shadow: 3px 1px 2px rgba(150, 164, 233, 0.91);
+    }
+
+
+    a#btn_lyft {
+        display: inline-block;
+        height: 50px;
+        box-sizing: border-box;
+        border-radius: 30px;
+        margin: auto;
+        margin-top: 105px;
+        padding: 8px 30px 0 30px;
+        background-color: rgb(224, 64, 139);
+        color: white;
+        font-size: 30px;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .fa-angle-double-right {
+        color: white;
+        font-size: 30px;
+    }
+
+    a#btn_lyft:hover {
+
+        background-color: rgb(148, 20, 180);
+
+    }
+
+    a#btn_cartoon {
+        display: inline-block;
+        position: relative;
+        margin:auto;
+        margin-top: 100px;
+        padding: 0px 6px;
+        background-color: black;
+        color: #6eb9ff;
+        font-family: 'Merriweather Sans', sans-serif;
+        
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 2px;
+        border:8px solid black;
+       
+    }
+
+    a#btn_cartoon .label {
+        font-size: 50px;
+
+    }
+
+    a#btn_cartoon:hover {
+        color: #fff;
+        background-color: rgb(243, 86, 139);
+    }
+
+    a#btn_moo {
+        display: block;
+        width: 90px;
+        height: 90px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 75px;
+        padding-top: 20px;
+        background-color:rgb(30, 133, 102);
+        color: white;
+        text-align: center;
+       
+        transition: all .3s;
+        text-decoration: none;
+    }
+
+    a#btn_moo:hover {
+        background-color: blanchedalmond;
+       
+    }
+
+    .fa-tint {
+        font-size: 50px;
+        color: blanchedalmond;
+    }
+
+    .fa-tint:hover {
+        color:rgb(30, 133, 102);
+       }
+
+a#btn_apple {
+
+       display: inline-block;
+       height: 100px;
+       width: 100px;
+       box-sizing: border-box;
+       border-radius: 50px;
+       margin: auto;
+       margin-top: 100px;
+       padding: 10px 10px 0 10px;
+       /* background-color:rgb(118, 123, 148);
+       color: rgb(153, 194, 255); */
+       font-size: 70px;
+       transition: all .5s;
+
+       /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3e2c7+0,c19e67+50,b68d4c+51,e9d4b3+100;L+Brown+3D */
+background: #f3e2c7; /* Old browsers */
+background: -moz-linear-gradient(top,  #f3e2c7 0%, #c19e67 50%, #b68d4c 51%, #e9d4b3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=0 ); /* IE6-9 */
+
+}
+
+a#btn_apple:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+background: #eeeeee; /* Old browsers */
+background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+
+    
+}
+.fa-apple {
+       /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+color:rgb(231, 231, 231)
+
+}
+
+.fa-apple:hover {
+ color: rgb(211, 188, 130);
+
+}
+
+a#btn_ibm {
+    display: block;
+    width: 90px;
+    height: 90px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 20px;
+  
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2f60c4+0,c85ec7+47,7b50b7+100 */
+background: #2f60c4; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #2f60c4 0%, #c85ec7 47%, #7b50b7 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #2f60c4 0%,#c85ec7 47%,#7b50b7 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #2f60c4 0%,#c85ec7 47%,#7b50b7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f60c4', endColorstr='#7b50b7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+    color: white;
+    transition: all .3s;
+
+
+}
+a#btn_ibm .label {
+    font-size: 15px;
+    color: rgba(255, 232, 254, 0.8);
+    text-decoration: none;
+    text-align: center;
+}
+
+a#btn_ibm:hover { 
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7b50b7+0,c85ec7+46,2f60c4+100 */
+background: #7b50b7; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #7b50b7 0%, #c85ec7 46%, #2f60c4 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #7b50b7 0%,#c85ec7 46%,#2f60c4 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #7b50b7 0%,#c85ec7 46%,#2f60c4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7b50b7', endColorstr='#2f60c4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.fa-cube {
+    color: rgba(255, 232, 254, 0.8);
+    font-size: 50px;
+
+}
+
+a#btn_nerf {
+    display: block;
+    width: 180px;
+    height: 90px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 12px;
+    font-size: 70px;
+    background-color: rgb(255, 156, 85);
+
+}
+
+a#btn_nerf:hover{
+    background-color: rgb(32, 32, 100);
+
+}
+.fa-dot-circle {
+    color: rgb(32, 32, 100);
+}
+
+.fa-dot-circle:hover {
+    color: rgb(255, 255, 255);
+}
+
+a#btn_hd {
+    display: block;
+    width: 180px;
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 95px;
+    padding-top: 14px;
+    font-size: 16px;
+    text-decoration: none;
+    border: 5px solid orange;
+    
+    color: white;
+    background-color: rgb(0, 0, 0);
+
+    transition: all .5s;
+}
+a#btn_hd .label {
+  margin-top: 10px;
+}
+
+a#btn_hd:hover {
+    background-color: rgb(221, 107, 0);
+    border: 5px solid black;
+}
+
+a#btn_mk {
+    display: block;
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 12px;
+    padding-right: 10px;
+    font-size: 70px;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: -10px;
+  
+    color: rgb(129, 114, 74);
+    background-color: rgb(37, 16, 16);
+}
+
+a#btn_mk:hover {
+    background-color: rgb(129, 114, 74);
+    color: rgb(37, 16, 16);
+
+}
+
+a#btn_ideo {
+    display: block;
+    width: 120px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 30px;
+    
+    background:linear-gradient(-90deg, rgba(136, 229, 241, 0.8) 30%, rgba(255, 75, 75, 0.8) 60%);
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Bodoni Moda', serif;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+a#btn_ideo:hover {
+    background-color: rgb(49, 49, 49, 0.8);
+}
+
+a#btn_samsung {
+    display: block;
+    width: 180px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 28px;
+   
+    
+    text-align: center;
+   
+    text-decoration: none;
+    
+    background: linear-gradient(-90deg, rgb(241, 208, 136) 30%, rgb(243, 174, 174) 65%,  black 5%);
+    color: white;
+    font-size: 32px;
+    transition: transform 0.3s ease;
+}
+
+a#btn_samsung::after, a#btn_samsung::before {
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    /* background-color: black; */
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom:0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+a#btn_samsung:hover {
+    transform: translate(-12px, -12px);
+}
+
+a#btn_samsung::after {
+    transform: translate(6px, 6px);
+}
+
+a#btn_samsung::before {
+    transform: translate(12px, 12px);
+}
+
+
+a#btn_dime {
+    display: block;
+    width: 100px;
+    height: 80px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 12px;
+   
+    color: #f42f15;
+    
+    text-align: center;
+    transition: all .3s;
+    text-decoration: none;
+    background-color: black;
+    /* font-size: 35 px; 
+    font-family: 'Bebas Neue', cursive; */
+    border: 5px solid #f42f15;
+    /* text-transform: uppercase;
+    letter-spacing: 15px; */
+
+}
+a#btn_dime:hover {
+    box-shadow: 0 5px 10px 0 #f42f15 inset, 0 5px 10px 0 #f42f15, 0 5px 10px 0 #f42f15 inset, 0 5px 10px 0 #f42f15;
+    /* text-shadow:0 5px 10px 0 #f42f15, 0 5px 10px 0 #f42f15; */
+}
+
+
+.fa-medal {
+font-size: 50px;
+text-align: center;
+color:#f42f15;
+/* box-shadow:0 5px 10px 0 #f42f15, 0 5px 10px 0 #f42f15; */
+}
+/* a#btn_dime::after, a#btn_dime::before {
+    border: 3px solid black; 
+    content: "";
+    position: absolute;
+    width:calc(100% - 6px); 
+    height:calc(100% - 6px);
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform .3s ease; 
+}
+
+a#btn_dime hover::after {
+    transform: translate(-5px, -5px);
+}
+
+a#btn_dime hover::before{
+    transform: translate(5px, 5px);
+} */
+
+
+a#btn_bissingers {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 15px;
+   
+    color: rgb(255, 230, 230); 
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    transition: all .3s;
+    text-decoration: none;
+    background: #f3c7c7; /* Old browsers */
+background: -moz-linear-gradient(top,  #f3e2c7 0%, #b64c6f 50%, #b64c6f 51%, #e9d4b3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f3e2c7 0%,#b64c6f 50%,#b64c6f 51%,#e9d4b3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f3e2c7 0%, #b64c6f 50%,#b64c6f 51%,#e9d4b3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=0 ); /* IE6-9 */
+    /* background-image: url(image/..velvet.jpeg); 
+    background-size: cover;
+width: 100px; 
+height: 100px; */
+
+}
+
+ /* .velvet {
+    font-size: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    background-position: center;
+}    */
+
+
+
+a#btn_molly {
+    display: inline-block;
+    height: 60px;
+    width: 80px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 2px 10px 0 10px;
+    background-color:rgb(45, 111, 165);
+    border: 5px dashed rgb(45, 111, 165);
+   
+    color: rgb(247, 244, 205);
+    font-size: 35px;
+    font-family: 'futura', sans-serif;
+    /* text-align: left; */
+    text-decoration: none;
+    transition: all .5s;
+    }
+
+    
+a#btn_molly:hover {
+    background-color: rgb(45, 111, 165);
+    border: 5px dashed rgb(36, 170, 141);
+    color: rgb(247, 244, 205);
+}
+a#btn_bgarden {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 20px;
+   
+    color: rgb(236, 197, 112);
+    text-align: center;
+    
+    transition: all .3s;
+    text-decoration: none;
+    background-color: rgb(148, 180, 172);
+
+} 
+
+.fa-seedling {
+    color: rgb(236, 197, 112);
+    font-size: 60px;
+}
+
+a#btn_bgarden:hover {
+    background-color: rgb(180, 148, 152);
+}
+
+
+a#btn_fitbit {
+    display: block;
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 5px;
+   
+    color: white;
+    background-color: rgb(100, 186, 189);
+    font-size: 60px;
+    text-align: center;
+    
+    transition: all .3s;
+    text-decoration: none;
+}  
+
+a#btn_fitbit:hover {
+box-shadow: 0 0 8px rgba(68, 68, 68, 0.91);
+}
+
+.fa-ellipsis-v {
+    padding: 10px 30px 10px 30px;
+}
+
+
+a#btn_kittens {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 15px;
+   
+    color: rgb(0, 0, 0);
+   background-color: #990d0d;
+    font-size: 70px;
+    text-align: center;
+    
+    transition: all .3s;
+    text-decoration: none;
+} 
+
+a#btn_kittens:hover {
+    color: white;
+}
+
+
+a#btn_tucker {
+
+    display: block;
+    width: 100px;
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 40%;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 5px;
+   
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    text-align: center;
+    
+    transition: all .3s;
+    text-decoration: none;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8eb92a+0,e5e55e+52,ce3c2f+100 */
+    background: #8eb92a; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #8eb92a 0%, #e5e55e 52%, #ce3c2f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #8eb92a 0%,#e5e55e 52%,#ce3c2f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #8eb92a 0%,#e5e55e 52%,#ce3c2f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb92a', endColorstr='#ce3c2f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+}
