@@ -1,0 +1,14 @@
+.desktop {
+    width: 70%;
+    object-fit: cover;
+
+}
+
+.mobile {
+    width: 20%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 50px;
+}
