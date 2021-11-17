@@ -1,0 +1,157 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(77, 62, 49);
+}
+
+h1 {
+    color: rgb(129, 219, 255);
+    text-indent: 50px;
+}
+
+h2 {
+    color: rgb(129, 219, 255);
+ 
+    font-size: 30px;
+    font-family: 'Cantarell', sans-serif;
+}
+
+h3 {
+  
+    
+    font-size: 15px;
+    color:rgb(129, 219, 255, .6);
+    font-family: 'Cantarell', sans-serif;
+}
+
+.top {
+    margin-left: 50px;
+    width: 60%; 
+}
+p {
+   
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+}
+
+.imagegrids {
+    width: 55%;
+}
+.largephoto {
+   width:700px;
+    object-fit: cover; 
+    margin-left: 50px;
+}
+
+.photo {
+width: 165px;
+object-fit: cover;
+margin: 5px;
+
+}
+
+.smallphotos {
+    
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 0;
+    margin:0;
+    margin-left: 46px;
+  
+    
+}
+.smallphotos li {
+   
+    display: block;
+    
+    text-align: center;
+    }
+
+
+.navigator ul{
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex; 
+    background-color: black;
+    /* this spaces them out
+    justify-content: space-between; */
+
+}
+
+.navigator .logo {
+    width: 20%;
+    object-fit: cover;
+
+}
+.navigator ul li a {
+    display: inline-block;
+    border-radius: 20px;
+    color: rgb(129, 219, 255);
+    font-size: 20px;
+    font-family: 'Cantarell', sans-serif;
+    padding: .2em 1.5em;
+    margin: 0 10px;
+    text-decoration: none;
+    
+/* top and bottom, left and right  */
+    transition: all .5s;
+}
+
+.navigator ul li a:hover {
+    background-color: rgb(61, 30, 9);
+    box-shadow: 0 0 8px rgba(223, 135, 63, 0.91)
+}
+
+.navigator ul li a .selected {
+    background-color: black;
+}
+
+
+
+/* for non home pages */
+.pics {
+    width: 90%; 
+   
+    object-fit: cover;
+   
+}
+
+.non-homepagesgrid {  
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 0;
+    margin:0;
+    margin-left: 46px;
+}
+
+.non-homepagesgrid li {
+    width: 40%;
+    display: block;
+    margin: 20px;
+}
+/* 
+.secondary-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+.secondary-nav ul {
+ border-right: 1px solid black; 
+}
+
+.secondary-nav ul li a {
+    display: inline-block;
+    background-color: rgb(116, 86, 62);
+    padding: 0 2em;
+    margin: 0 0px;
+    margin: 0;
+
+    transition: all .5s;
+   
+} */
+
