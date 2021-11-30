@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+<title>legacy</title>
+<link href="css/styles.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href= "scripts/scripts.js">
+</head>
+
+
+<body>
+    <div class = "drawer">
+        <button class = "controls"></button>
+        <div class = "contents">
+            <nav class = "navigatormenu">
+            <ul>
+                <li><a href = "gameplay.html" >Gameplay</a> </li>
+                <li><a href = "plot.html" >Plot</a> </li>
+                <li><a href = "development.html" >Development</a> </li>
+                <li><a href = "legacy.html" >Legacy</a> </li>
+            </ul>
+            </nav>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+
+            $(".controls").click(function() {
+                $(".drawer").toggleClass("open");
+                console.log("Toggled the class!");
+            });
+        });
+    </script> 
+
+<body>
+<header>
+    <nav class = "navigator">
+        <ul>
+            <li class = "logo"><a href = "index.html" ><img src = "images/nintendologo.jpeg" alt = nintendo logo></a> </li>
+            <li><a href = "gameplay.html" >Gameplay</a> </li>
+            <li><a href = "plot.html" >Plot</a> </li>
+            <li><a href = "development.html" >Development</a> </li>
+            <li><a href = "legacy.html"class = "selected" >Legacy</a> </li>
+        </ul>
+    </nav>
+
+    <h1>LEGACY</h1>
+    <ul class = non-homepagesgrid >
+        <li>
+            <img class = "pics" src = "images/genshin.webp"> 
+            <p>In the years since its release, multiple games and developers have cited Breath of the Wild as an inspiration. These include Genshin Impact, Ghost of Tsushima,Immortals: Fenyx Rising,and Telling Lies.</p>
+        </li>
+        <li>
+            <img class = "pics" src = "images/assassin.webp">
+            <p>Benjamin Plich, designer of Assassin's Creed: Unity and For Honor, said that he believed developers would take inspiration from its focus on experimental gameplay,and PC Gamer wrote that the game "[set] a standard the rest of the genre should live by."</p> 
+        </li>
+        <li>
+            <img class = "pics" src = "images/calamity.jpeg">
+            <p>In September 2020, Nintendo announced Hyrule Warriors: Age of Calamity, a hack and slash game in the style of Dynasty Warriors series, following 2014's Hyrule Warriors. Age of Calamity's story serves as a prequel to Breath of the Wild, set 100 years before. The game was released on November 20, 2020, on the Nintendo Switch</p> 
+        </li>
+        <li>
+            <img class = "pics" src = "images/botw2.webp"> 
+            <p>An untitled sequel was announced at E3 2019 for the Switch.[205] It was conceived during planning for Breath of the Wild's DLC; the team came up with too many ideas, some of which could not be implemented due to technical constraints, so they decided to use their ideas for a new game. According to Aonuma, the sequel will build atop the original's world with a new story and gameplay elements. </p>
+        </li>
+</header>
+</body>
+</html>

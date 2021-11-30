@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+<title>BOTW</title>
+<link href="css/styles.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@700&display=swap" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href= "scripts/scripts.js">
+</head>
+
+
+<body>
+    <div class = "drawer">
+        <button class = "controls"></button>
+        <div class = "contents">
+            <nav class = "navigatormenu">
+            <ul>
+                <li><a href = "gameplay.html" >Gameplay</a> </li>
+                <li><a href = "plot.html" >Plot</a> </li>
+                <li><a href = "development.html" >Development</a> </li>
+                <li><a href = "legacy.html" >Legacy</a> </li>
+            </ul>
+            </nav>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+
+            $(".controls").click(function() {
+                $(".drawer").toggleClass("open");
+                console.log("Toggled the class!");
+            });
+        });
+    </script> 
+
+    <header>
+        <nav class = "navigator">
+            <ul>
+                <li class = "logo"><a href = "index.html" class = "selected"><img src = "images/nintendologo.jpeg" alt = nintendo logo></a> </li>
+                <li><a href = "gameplay.html" >Gameplay</a> </li>
+                <li><a href = "plot.html" >Plot</a> </li>
+                <li><a href = "development.html" >Development</a> </li>
+                <li><a href = "legacy.html" >Legacy</a> </li>
+            </ul>
+        </nav>
+        
+    </header>
+    <h1>The Legend of Zelda: Breath of The Wild</h1>
+
+    <div class = "iframe-container">
+    <iframe class = "trailer" width="560" height="315" src="https://www.youtube.com/embed/zw47_q9wbBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+    </div>
+
+    <div class= "imagegrids">
+        <ul class= "smallphotos">
+            <li> <img class = "photo" src= "images/hinox.jpeg"> </li>
+            <li> <img class = "photo" src = "images/botwzelda.jpeg"></li>
+            <li> <img class = "photo" src = "images/botwlynel.jpeg"></li>
+            <li> <img class = "photo" src = "images/botwfire.jpeg"></li>
+
+        </ul>
+    </div>
+    
+    
+    <section class = "top">
+        <h3>LOZ: Breath of the Wild | Available Now</h3>
+        <h2>Explore a World of Adventure.</h2>
+        <p>Similar to the original 1986 The Legend of Zelda game, players are given little instruction and can explore the world freely. Tasks include collecting various items and gear to aid in objectives such as puzzle-solving or side quests. The world is unstructured and designed to encourage exploration and experimentation, and the main story quest can be completed in a nonlinear fashion.</p>
+
+        <p>Development of Breath of the Wild took place over five years, following the responses from some fans who wanted a larger game world in the series. Wanting to rethink the conventions of the series, Nintendo introduced elements such as an open world and a detailed physics engine. Monolith Soft, known for their work on the open world Xenoblade Chronicles series, assisted in designing landscapes and topography. The game was originally planned for release in 2015 as a Wii U exclusive but was delayed twice. Released on March 3, 2017, Breath of the Wild was a launch game for the Nintendo Switch and the final Nintendo-published game for the Wii U. Two waves of downloadable content were released throughout 2017 in an expansion pass.</p>
+            
+        <p>Breath of the Wild received critical acclaim for its open-ended gameplay and attention to detail. Critics called it a landmark in open world game design, although it received minor criticism for its technical performance at launch. It won several game of the year awards and has since been cited as one of the greatest video games of all time. By 2021 it had sold nearly 26 million copies, making it one of the best-selling video games of all time. A sequel is set for release on the Switch in 2022. A crossover with the Dynasty Warriors series, Hyrule Warriors: Age of Calamity, was released in 2020.</p>
+
+        
+    </section>
+
+    <!-- <section class = "middle">
+        <h2>Middle Section</h2>
+        <p>paragraph</p>
+    </section>
+    <section class = "bottom">
+        <h2>Bottom</h2>
+        <p>paragraph</p>
+    </section> -->
+
+</body>
+
+<footer>
+    <p>Copyright 2017</p>
+</footer>
+</html>

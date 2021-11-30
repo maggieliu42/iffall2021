@@ -1,0 +1,318 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(77, 62, 49);
+}
+h1 {
+    margin-left: 50px;
+    color: rgb(129, 219, 255);
+}
+@media (max-width: 640px) {
+    h1{
+       font-size: 25px;
+    }
+ @media (max-width: 450px) {
+     h1{
+           font-size: 18px;
+     }
+
+}}
+
+h2 {
+    color: rgb(129, 219, 255);
+    font-size: 30px;
+    font-family: 'Cantarell', sans-serif;
+}
+
+h3 {
+    font-size: 15px;
+    color:rgb(129, 219, 255, .6);
+    font-family: 'Cantarell', sans-serif;
+}
+
+.top {
+    margin:0;
+    margin-left:50px;
+    width: 80%;
+}
+p {
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+    
+}
+
+.trailer{
+    margin-left: 50px;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-top: 28%;
+    padding-bottom: 28%; 
+    height: 0;
+  }
+
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+  }
+
+.photo {
+    width: 12rem;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.smallphotos {
+    display: flex; 
+    flex-wrap: wrap;
+    /* padding: 0;
+    margin:0;
+    margin-left: 46px; */
+
+   /* position:relative; 
+    width: 25%;
+    padding-bottom: 10%;
+    height:0; */
+    
+}
+
+.imagegrid ul {
+    list-style: none;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} 
+
+.smallphotos li {
+    display: block;
+    list-style: none;
+    text-align: center;
+    } 
+
+
+.navigator ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    /* flex-wrap: wrap; */ 
+    background-color: black;
+    align-items: center;
+}
+@media (max-width: 740px) {
+    .navigator ul {
+        display: none;
+    }
+}
+
+.navigator .logo {
+    object-fit: cover;
+
+
+}
+.navigator ul li {
+    display: block;
+}
+
+.navigator ul li a {
+    display: inline-block;
+    border-radius: 20px;
+    color: rgb(129, 219, 255);
+    font-size: 20px;
+    font-family: 'Cantarell', sans-serif;
+    padding: .2em 1.5em;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: all .5s;
+}
+@media (max-width: 900px) {
+    .navigator ul li a {
+        font-size: 15px;
+    }
+}
+.navigator ul li a:hover {
+    background-color: rgb(61, 30, 9);
+    box-shadow: 0 0 8px rgba(223, 135, 63, 0.91)
+}
+
+.navigator ul li a .selected {
+    background-color: black;
+}
+
+.navigator ul li .logo a {
+    background-color: transparent;
+}
+
+.navigator ul .logo a {
+    padding: 0;
+    margin:0;
+    display: block;
+}
+.logo img {
+    display: block;
+    width: 170px;
+}
+
+/* for non home pages */
+.pics {
+    width: 80%; 
+    object-fit: cover;
+   
+}
+
+.non-homepagesgrid {
+    list-style: none; 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin:0;
+    margin-left: 46px;
+    
+}
+    
+
+.non-homepagesgrid li {
+    display: block;
+    list-style: none; 
+    
+ 
+
+}
+
+    @media (max-width: 480px) {
+        li {width: 50%;}
+    }
+
+    @media (max-width: 640px) {
+        li {width: 75%;}
+    }
+
+
+/* .non-homepagesgrid ul {
+width: auto;
+}
+    @media (max-width: 500px) {
+        li {width:100%;
+        /* li { grid-template-columns: 4r;} */
+        
+
+footer { 
+    background-color: black;
+    height: 80px;
+    text-align: center;
+    margin-top: 300px;
+    padding-top: 30px;
+}
+
+/* the position/location of the menu */
+.drawer {
+    position: fixed;
+    top: 0;
+    right: 0px;
+    width: 125px;
+    height: 70px;
+    z-index: 10;
+}
+ @media (min-width: 740px) {
+    .drawer {display: none}
+} 
+
+
+/* the word/button menu, button.controls? */
+.drawer button.controls {
+    position: absolute;
+    right: 0;
+    top: 0; 
+    display: block;
+    height: 70px;
+    width:100%;
+    background-color: rgb(129, 219, 255);
+    cursor: pointer;
+}
+
+/* .drawer button.controls:before {
+    content:'';
+    position: absolute;
+    top: -10px; 
+    left : 0px; 
+    height: 3px; 
+    background-color: #95afe5;
+}  */
+
+/* when the button's open */
+.drawer.open button.controls {
+    background-color: #000000;
+}
+/* 
+before opened button will say... */
+.drawer button.controls:after {
+    
+    content: "Menu";
+    font-family: 'Cantarell', sans-serif;
+    font-size: 18px;
+}
+/* 
+after its opened button will say... */
+.drawer.open button.controls:after {
+    content: "Close";
+    color: rgb(129, 219, 255);
+    font-family: 'Cantarell', sans-serif;
+    font-size: 18px;
+}
+
+/* the content inside (list) */
+.drawer .contents {
+    height: 0;
+    padding: 20 0px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(129, 219, 255);
+    transition: all .5s;
+    overflow: hidden;
+}
+
+.drawer.open .contents {
+    height: 200px;
+    padding: 70px 10px 10px 10px;
+    
+    background-color: rgb(206, 6, 6);
+}
+
+
+
+
+.navigatormenu ul {
+    
+    padding: 0;
+    margin:0;
+    line-height: 30px;
+    text-decoration: none;
+    list-style: none;
+} 
+
+
+.navigatormenu ul li a {
+    padding:0;
+    display: block;
+    font-size: 15px;
+    color: rgb(129, 219, 255);
+    font-family: 'Cantarell', sans-serif;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(109, 49, 52);
+}
+
+/* responsive */ 
+
+/* when the max is 461 change grid widths of photos */
+

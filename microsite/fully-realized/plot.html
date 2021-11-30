@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+<title>plot</title>
+<link href="css/styles.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href= "scripts/scripts.js">
+</head>
+
+<body>
+    <div class = "drawer">
+        <button class = "controls"></button>
+        <div class = "contents">
+            <nav class = "navigatormenu">
+            <ul>
+                <li><a href = "gameplay.html" >Gameplay</a> </li>
+                <li><a href = "plot.html" >Plot</a> </li>
+                <li><a href = "development.html" >Development</a> </li>
+                <li><a href = "legacy.html" >Legacy</a> </li>
+            </ul>
+            </nav>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+
+            $(".controls").click(function() {
+                $(".drawer").toggleClass("open");
+                console.log("Toggled the class!");
+            });
+        });
+    </script> 
+<body>
+<header>
+    <nav class = "navigator">
+        <ul>
+            <li class = "logo"><a href = "index.html" ><img src = "images/nintendologo.jpeg" alt = nintendo logo></a> </li>
+            <li><a href = "gameplay.html" >Gameplay</a> </li>
+            <li><a href = "plot.html"class = "selected" >Plot</a> </li>
+            <li><a href = "development.html" >Development</a> </li>
+            <li><a href = "legacy.html" >Legacy</a> </li>
+        </ul>
+    </nav>
+
+    <h1>PLOT </h1>
+
+    <ul class = non-homepagesgrid >
+        <li>
+            <img class = "pics" src = "images/divinebeast.jpeg">
+            <p>Breath of the Wild takes place at the end of the Zelda timeline in the kingdom of Hyrule. Protected by four enormous animalistic machines called the Divine Beasts and an army of autonomous weapons called Guardians.</p> 
+        </li>
+        <li>
+            <img class = "pics" src = "images/castle.jpeg"> 
+            <p>The kingdom of Hyrule had since regressed to a medieval state. Reading their ancestors' prophecies, the Hylians recognized the signs of Ganon's return and excavated surrounding areas to uncover the Divine Beasts and Guardians.</p>
+        </li>
+        <li>
+            <img class = "pics" src = "images/hateno.png"> 
+            <p>However, Ganon possessed the Guardians and Divine Beasts, turning them against Hyrule. King Rhoam and the Champions were killed, the castle town was destroyed, and Link was gravely wounded while defending the Hyrulean Army's only remaining base, Fort Hateno.</p>
+        </li>
+        <li>
+            <img class = "pics" src = "images/shield.jpg">
+            <p>100 years after being placed in a healing chamber in the Shrine of Resurrection, an amnesiac Link awakens in a now-ravaged Hyrule. </p> 
+        </li>
+        <li>
+            <img class = "pics" src = "images/sword.jpeg"> 
+            <p> After obtaining the Master Sword from the Lost Woods, Link enters Hyrule Castle and defeats Ganon with the help of the Divine Beasts and Zelda's Bow of Light. Zelda seals Ganon away, restoring peace and allowing the spirits of King Rhoam and the champions to depart to the afterlife.</p>
+        </li>
+        <li>
+            <img class = "pics" src = "images/zora.jpeg"> 
+            <p>If players have found all 13 memories in the quest "Captured Memories", they unlock a secret ending. </p>
+        </li>
+</header>
+</body>
+</html>

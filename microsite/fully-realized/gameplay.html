@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+<title>gameplay</title>
+<link href="css/styles.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href= "scripts/scripts.js">
+</head>
+
+
+<body>
+    <div class = "drawer">
+        <button class = "controls"></button>
+        <div class = "contents">
+            <nav class = "navigatormenu">
+            <ul>
+                <li><a href = "gameplay.html" >Gameplay</a> </li>
+                <li><a href = "plot.html" >Plot</a> </li>
+                <li><a href = "development.html" >Development</a> </li>
+                <li><a href = "legacy.html" >Legacy</a> </li>
+            </ul>
+            </nav>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+
+            $(".controls").click(function() {
+                $(".drawer").toggleClass("open");
+                console.log("Toggled the class!");
+            });
+        });
+    </script> 
+
+
+<header>
+    <nav class = "navigator">
+        <ul>
+            <li class = "logo"><a href = "index.html" ><img src = "images/nintendologo.jpeg" alt = nintendo logo></a> </li>
+            <li><a href = "gameplay.html" class = "selected">Gameplay</a> </li>
+            <li><a href = "plot.html" >Plot</a> </li>
+            <li><a href = "development.html" >Development</a> </li>
+            <li><a href = "legacy.html" >Legacy</a> </li>
+        </ul>
+    </nav>
+
+    <h1>GAMEPLAY</h1>
+    <ul class = non-homepagesgrid >
+        <li>
+            <img class = "pics" src = "images/korox.jpeg"> 
+            <p>Scattered across Hyrule are small puzzles that reveal Korok Seeds, which can be traded to expand inventory size for weapons, shields, and bows.</p>
+        </li>
+        <li>
+            <img class = "pics" src = "images/lightning.jpeg">
+            <p> During thunderstorms, metal objects will attract powerful lightning strikes; during a storm, therefore, a player must be careful not to wear metal, but may also throw metal objects at enemies to draw lightning to them.These design approaches result in a generally unstructured and interactive world that rewards experimentation and allows for nonlinear completion of the story</p> 
+        </li>
+        <li>
+            <img class = "pics" src = "images/food.jpeg"> 
+            <p>Players can obtain food from hunting animals, gathering wild fruit, or collecting parts of defeated enemies.[6] By cooking combinations of food or materials, the player can create meals and elixirs that can replenish Link's health and stamina, or provide temporary status bonuses such as increased strength or resistance to heat or cold.</p>
+        </li>
+
+        <li>
+            <img class = "pics" src = "images/bomb.jpeg"> 
+            <p> An important tool in Link's arsenal is the "Sheikah Slate", which can be used to mark waypoints on a map and as an in-game camera. Over the course of the game, Link can collect powers to add to the Slate, including the ability to create remote bombs.</p>
+        </li>
+        <li>
+            <img class = "pics" src = "images/iceblocks.jpeg">
+            <p>An important tool in Link's arsenal is the "Sheikah Slate", which can be used to mark waypoints on a map and as an in-game camera. Over the course of the game, Link can collect powers to add to the Slate, including the ability to form ice blocks on watery surfaces.</p> 
+        </li>
+        <li>
+            <img class = "pics" src = "images/epona.jpeg"> 
+            <p>Towns serve as hotspots for quests, sidequests, and shops selling materials and clothing. Hikers and other travelers offer sidequests, hints, or conversation.[5][11] Additionally, players can scan Amiibo figures against their controller to summon items or call Link's horse Epona from previous Zelda games and Wolf Link from Twilight Princess.</p>
+        </li>
+    </ul>
+
+</header>
+</body>
+</html>
