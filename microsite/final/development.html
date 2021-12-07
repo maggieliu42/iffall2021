@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+<title>development</title>
+<link href="css/styles.css" rel="stylesheet">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href= "scripts/scripts.js">
+</head>
+
+
+<body>
+    <div class = "drawer">
+        <button class = "controls"></button>
+        <div class = "contents">
+            <nav class = "navigatormenu">
+            <ul>
+                <li><a href = "gameplay.html" >Gameplay</a> </li>
+                <li><a href = "plot.html" >Plot</a> </li>
+                <li><a href = "development.html" >Development</a> </li>
+                <li><a href = "legacy.html" >Legacy</a> </li>
+            </ul>
+            </nav>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+
+            $(".controls").click(function() {
+                $(".drawer").toggleClass("open");
+                console.log("Toggled the class!");
+            });
+        });
+    </script> 
+<body>
+<header>
+    <nav class = "navigator">
+        <ul>
+            <li class = "logo"><a href = "index.html" ><img src = "images/nintendologo.jpeg" alt = nintendo logo></a> </li>
+            <li><a href = "gameplay.html" >Gameplay</a> </li>
+            <li><a href = "plot.html" >Plot</a> </li>
+            <li><a href = "development.html"class = "selected" >Development</a> </li>
+            <li><a href = "legacy.html" >Legacy</a> </li>
+        </ul>
+    </nav>
+
+    <h1>DEVELOPMENT</h1>
+    <ul class = non-homepagesgrid >
+        <li>
+            <img class = "pics" src = "images/linkbtwnworlds.jpeg"> 
+            <p> In 2013, Nintendo experimented with nonlinear gameplay in The Legend of Zelda: A Link Between Worlds, which was a common point of praise from many outlets. At E3 2014, Aonuma said he planned to reform dungeons and puzzles, two of the series' major gameplay elements,and redesign the game to allow players to reach the end without progressing through the story.</p>
+        </li>
+        <li>
+            <img class = "pics" src = "images/skyrim.jpeg">
+            <p> As Nintendo had never developed a modern open-world game on the scale of Breath of the Wild, they looked at The Elder Scrolls V: Skyrim to learn more about the challenges of making a modern large-scale open-world game.</p> 
+        </li>
+        <li>
+            <img class = "pics" src = "images/havok.jpeg.crdownload">
+            <p>Before full development, the developers designed a playable 2D prototype similar to the original Zelda to experiment with physics-based puzzles. The final game uses a modified version of the Havok physics engine. The physics engine in Breath of the Wild a major development for the Zelda series, saying that it "underpins everything in the world" and makes things operate in a "logical and realistic way", allowing players to approach puzzles and problems in different ways.</p> 
+        </li>
+        <li>
+            <img class = "pics" src = "images/slate.jpeg"> 
+            <p>Takizawa cited the Jōmon period as an inspiration for the ancient Sheikah technology and architecture that is found in the game, due to the mystery surrounding the period. The game's landscape was based on locations in and around Kyoto, the hometown of game director Hidemaro Fujibayashi, and was partially designed by Monolith Soft, who assisted with topographical level design.The game's initial area was made a plateau so that players can see the world's expansive environments.</p>
+        </li>
+</header>
+</body>
+</html>
